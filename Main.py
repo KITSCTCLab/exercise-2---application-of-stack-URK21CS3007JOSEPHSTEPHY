@@ -48,7 +48,7 @@ class Evaluate:
       z=self.lst[self.top]
       del self.lst[self.top]
       self.top-=1
-      return z
+    return z
 
   def push(self, operand): 
     """
